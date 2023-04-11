@@ -3,6 +3,7 @@ function morlet = morlet_wavelet(freq,fs)
 % The morlet wavelet kernel with specified frequency 'freq' and sampling
 % frequency 'fs'
 % Author: Fatih ONAY
+
 %%  Morlet Wavelet
 % Parameters
 t = -1 : 1/fs :  1; % The length of kernel in time 
